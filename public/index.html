@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/files/style.css">
+
+</head>
+<body>
+    <h1 class="title">Weather sounds</h1>
+    <div class="buttons">
+        <button class="image-button1" data-sound="summer"><img src="/files/assets/icons/sun.svg" alt="Sun"></button>
+        <audio id="summerAudio" src="/files/assets/sounds/summer.mp3"></audio>
+
+        <button class="image-button2" data-sound="rain"><img src="/files/assets/icons/cloud-rain.svg" alt="Rain"></button>
+        <audio id="rainAudio" src="/files/assets/sounds/rain.mp3"></audio>
+
+        <button class="image-button3" data-sound="winter"><img src="/files/assets/icons/cloud-snow.svg" alt="Snow"></button>
+        <audio id="winterAudio" src="/files/assets/sounds/winter.mp3"></audio>
+    </div>
+    <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+   
+</body>
+</html>

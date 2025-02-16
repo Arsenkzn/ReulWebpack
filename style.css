@@ -13,22 +13,22 @@
   }
   
   .summer-bg {
-    background-image: url('assets/summer-bg.jpg');
+    background-image: url('/files/assets/summer-bg.jpg');
     background-size: cover;
   }
   
   .rain-bg {
-    background-image: url('assets/rainy-bg.jpg');
+    background-image: url('/files/assets/rainy-bg.jpg');
     background-size: cover;
   }
   
   .winter-bg {
-    background-image: url('assets/winter-bg.jpg');
+    background-image: url('/files/assets/winter-bg.jpg');
     background-size: cover;
   }
   
   .image-button1 {
-      background-image: url("assets/summer-bg.jpg");
+      background-image: url("/files/assets/summer-bg.jpg");
       background-size: cover;
       border: none;
       color: white;
@@ -38,7 +38,7 @@
       border-radius: 15px;
     }
     .image-button2 {
-      background-image: url("assets/rainy-bg.jpg");
+      background-image: url("/files/assets/rainy-bg.jpg");
       background-size: cover;
       border: none;
       color: white; 
@@ -48,7 +48,7 @@
       border-radius: 15px;
     }
     .image-button3 {
-      background-image: url("assets/winter-bg.jpg"); 
+      background-image: url("/files/assets/winter-bg.jpg"); 
       background-size: cover;
       border: none; 
       color: white;
