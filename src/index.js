@@ -5,14 +5,13 @@ const volumeSlider = document.getElementById('volumeSlider');
     const winterAudio = document.getElementById('winterAudio');
     let currentAudio = null;
 
-    // Volume control
+
     volumeSlider.addEventListener('input', function() {
         summerAudio.volume = this.value;
         rainAudio.volume = this.value;
         winterAudio.volume = this.value;
     });
 
-    // Play/Pause and background update
     buttons.forEach(button => {
         button.addEventListener('click', function() {
             const sound = this.dataset.sound;
