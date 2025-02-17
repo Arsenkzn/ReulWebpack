@@ -1,3 +1,5 @@
+//import css from "file.css"
+
 const volumeSlider = document.getElementById('volumeSlider');
     const buttons = document.querySelectorAll('.buttons button');
     const summerAudio = document.getElementById('summerAudio');

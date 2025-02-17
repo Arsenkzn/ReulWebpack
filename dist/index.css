@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Roboto;
+    src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+  }
+  
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    color: darkgoldenrod;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .summer-bg {
+    background-image: url('/files/assets/summer-bg.jpg');
+    background-size: cover;
+  }
+  
+  .rain-bg {
+    background-image: url('/files/assets/rainy-bg.jpg');
+    background-size: cover;
+  }
+  
+  .winter-bg {
+    background-image: url('/files/assets/winter-bg.jpg');
+    background-size: cover;
+  }
+  
+  .image-button1 {
+      background-image: url("/files/assets/summer-bg.jpg");
+      background-size: cover;
+      border: none;
+      color: white;
+      cursor: pointer;
+      width: 150px;
+      height: 150px;
+      border-radius: 15px;
+    }
+    .image-button2 {
+      background-image: url("/files/assets/rainy-bg.jpg");
+      background-size: cover;
+      border: none;
+      color: white; 
+      cursor: pointer;
+      width: 150px;
+      height: 150px;
+      border-radius: 15px;
+    }
+    .image-button3 {
+      background-image: url("/files/assets/winter-bg.jpg"); 
+      background-size: cover;
+      border: none; 
+      color: white;
+      cursor: pointer;
+      width: 150px;
+      height: 150px;
+      border-radius: 15px;
+    }
+    .buttons{
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 15px;
+    }
+    #volumeSlider {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     }

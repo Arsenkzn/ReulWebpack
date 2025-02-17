@@ -23,7 +23,17 @@
   "homepage": "https://github.com/Arsenkzn/ReulWebpack#readme",
   "devDependencies": {
     "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
     "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss": "^8.5.2",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.1.4",
+    "sass": "^1.85.0",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.11",
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1",
     "webpack-merge": "^6.0.1"
